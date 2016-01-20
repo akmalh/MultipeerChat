@@ -13,6 +13,7 @@
 		C8A3BA4E1C4F19C60089D860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A3BA4D1C4F19C60089D860 /* Images.xcassets */; };
 		C8A3BA511C4F19C60089D860 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A3BA4F1C4F19C60089D860 /* LaunchScreen.xib */; };
 		C8A3BA5D1C4F19C60089D860 /* MultipeerChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A3BA5C1C4F19C60089D860 /* MultipeerChatTests.swift */; };
+		C8A3BA671C4F19DC0089D860 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A3BA661C4F19DC0089D860 /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C8A3BA561C4F19C60089D860 /* MultipeerChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A3BA5B1C4F19C60089D860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8A3BA5C1C4F19C60089D860 /* MultipeerChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatTests.swift; sourceTree = "<group>"; };
+		C8A3BA661C4F19DC0089D860 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A3BA671C4F19DC0089D860 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		C8A3BA381C4F19C60089D860 = {
 			isa = PBXGroup;
 			children = (
+				C8A3BA661C4F19DC0089D860 /* MultipeerConnectivity.framework */,
 				C8A3BA431C4F19C60089D860 /* MultipeerChat */,
 				C8A3BA591C4F19C60089D860 /* MultipeerChatTests */,
 				C8A3BA421C4F19C60089D860 /* Products */,
